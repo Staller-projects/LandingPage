@@ -1,158 +1,154 @@
- * {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
- }
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
 
 .heroContainer {
-    background: #1E2837; 
+  background: #1e2837;
 }
 
 .navBar {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 0px;
 }
 .brandName {
-    font-weight: bolder;
-    font-size: 1.3rem;
-    color: #F9F9FA;
+  font-weight: bolder;
+  font-size: 1.3rem;
+  color: #f9f9fa;
 }
 .navBar ul {
-    list-style: none;
-    display: flex; 
-    gap: 40px;
-} 
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
 .navBar ul li {
-    font-weight: 500;
-    color: #C4C9CE;
+  font-weight: 500;
+  color: #c4c9ce;
 }
 
 .subContainer {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 60px 0px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 60px 0px;
 }
 .subContainer h1 {
-    color: #F8FAFA;
-    font-size: 3rem;
-    font-weight: bold;
-    margin-bottom: 10px;
+  color: #f8fafa;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 .subContainer p {
-    color: #CCD0D4;
-    margin-bottom: 10px;
+  color: #ccd0d4;
+  margin-bottom: 10px;
 }
 .subContainer button {
-    color: #fff;
-    font-size: 1.1rem;
-    font-weight: 400;
-    padding: 5px 20px;
-    border-radius: 5px;
-    border-color: #3A82F7;
-    background: #3A82F7;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 400;
+  padding: 5px 20px;
+  border-radius: 5px;
+  border-color: #3a82f7;
+  background: #3a82f7;
 }
 .subContainer .imageDiv {
-    background: #6D747D;
-    height: 200px;
-    width: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} 
+  background: #6d747d;
+  height: 200px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .subContainer .imageDiv p {
-    color: #FDFDFD;   
-    
-} 
+  color: #fdfdfd;
+}
 
 .heroContent .child {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 /* Second section */
 .secondSection {
-    padding: 50px 0px;
+  padding: 50px 0px;
 }
 .secondSection .mainContainer {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 .secondSection h1 {
-    color: #1F2836;
-    text-align: center;
+  color: #1f2836;
+  text-align: center;
 }
 .secondSection .mainContainer {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
-.secondSection .mainContainer .card {  
-    width: 150px;
-    display: flex;
-    flex-direction: column;
+.secondSection .mainContainer .card {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
 }
 .secondSection .mainContainer .card .cardLayout {
-    height: 160px;
-    border: 4px solid #3A82F7; 
-    border-radius: 10px;
+  height: 160px;
+  border: 4px solid #3a82f7;
+  border-radius: 10px;
 }
 .secondSection .mainContainer .card .cardText {
-    color: #59626F;
-    font-weight: 500;
-    font-size: 1rem;
-    text-wrap: wrap;
+  color: #59626f;
+  font-weight: 500;
+  font-size: 1rem;
+  text-wrap: wrap;
 }
 
 /* Third Section */
 
 .thirdSection {
-    background: #E5E7EB;
-    padding: 150px 0px ;
+  background: #e5e7eb;
+  padding: 150px 0px;
 }
 .thirdSection p:nth-child(1) {
-    color: #59626F; 
-    font-size: 2rem;
-    font-weight: lighter;
-    font-style: italic;
+  color: #59626f;
+  font-size: 2rem;
+  font-weight: lighter;
+  font-style: italic;
 }
 .thirdSection p:nth-child(2) {
-    display: flex;
-    justify-content: end;
-    color: #000;
-    font-weight: 600;
-    font-size: large;
+  display: flex;
+  justify-content: end;
+  color: #000;
+  font-weight: 600;
+  font-size: large;
 }
-
 
 /* Fourth Section */
 
-
 .fourthSection {
-    padding: 40px 50px;   
+  padding: 40px 50px;
 }
 .fourthSection .mainContainer {
-    background: #3A82F7;
-    display: flex;
-    justify-content: space-around;
-    margin: 20px 50px;
-    padding: 40px 50px;
-    border-radius: 10px;
+  background: #3a82f7;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 50px;
+  padding: 40px 50px;
+  border-radius: 10px;
 }
 .fourthSection .text p:nth-child(1) {
-    color: #fff;
-    font-size: 1.1rem;
-    font-weight: 600;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 .fourthSection .text p:nth-child(2) {
-    color: #E5E7EB;
+  color: #e5e7eb;
 }
 .fourthSection button {
-    color: #fff;
-    font-size: 0.8rem;
-    font-weight: 600;
-    padding: 2px 15px;
-    border: 2px solid #fff;
-    border-radius: 5px; 
-    background: #3A82F7;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 2px 15px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  background: #3a82f7;
 }
-
